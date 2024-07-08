@@ -10,8 +10,8 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/zan8in/masscan/errors"
-	"github.com/zan8in/masscan/tools"
+	"github.com/raylax/masscan/errors"
+	"github.com/raylax/masscan/tools"
 )
 
 type (

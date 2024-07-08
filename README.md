@@ -1,5 +1,5 @@
 # masscan
-![Just I love it](https://github.com/zan8in/masscan/blob/main/assets/golang.png)
+![Just I love it](https://github.com/raylax/masscan/blob/main/assets/golang.png)
 Masscan is a golang library to run masscan scans, parse scan results. 
 
 # What is masscan
@@ -10,17 +10,17 @@ Its usage (parameters, output) is similar to nmap, the most famous port scanner.
 Internally, it uses asynchronous transmission, similar to port scanners like scanrand, unicornscan, and ZMap. It's more flexible, allowing arbitrary port and address ranges.
 # Installation
 ```
-go get github.com/zan8in/masscan
+go get github.com/raylax/masscan
 ```
 to install the package
 ```
-import "github.com/zan8in/masscan"
+import "github.com/raylax/masscan"
 ```
 # Dependencies
 - `go` (> `1.10`)
 - masscan (> `1.3.0`)
-  - [download windows masscan](https://github.com/zan8in/masscan/blob/main/bin/masscan-win/masscan.exe)
-  - [download linux masscan](https://github.com/zan8in/masscan/blob/main/bin/masscan-linux/masscan)
+  - [download windows masscan](https://github.com/raylax/masscan/blob/main/bin/masscan-win/masscan.exe)
+  - [download linux masscan](https://github.com/raylax/masscan/blob/main/bin/masscan-linux/masscan)
 
 
 # Table of content
@@ -37,7 +37,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/zan8in/masscan"
+	"github.com/raylax/masscan"
 )
 
 // Example
@@ -92,7 +92,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/zan8in/masscan"
+	"github.com/raylax/masscan"
 )
 
 func main() {

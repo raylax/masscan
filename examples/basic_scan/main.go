@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/zan8in/masscan"
+	"github.com/raylax/masscan"
 )
 
 // BESTPORTS "21,22,80,U:137,U:161,443,445,U:1900,3306,3389,U:5353,8080"

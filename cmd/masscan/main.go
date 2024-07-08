@@ -1,8 +1,8 @@
 package main
 
 import (
+	"github.com/raylax/masscan/pkg/runner"
 	"github.com/zan8in/gologger"
-	"github.com/zan8in/masscan/pkg/runner"
 )
 
 func main() {
