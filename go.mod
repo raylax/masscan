@@ -1,4 +1,4 @@
-module github.com/zan8in/masscan
+module github.com/raylax/masscan
 
 go 1.20
 
