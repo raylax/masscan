@@ -246,6 +246,13 @@ func SetParamExclude(excludes ...string) func(*Scanner) {
 	}
 }
 
+// SetParams configures the scanner with the given parameters
+func SetParams(params ...string) func(*Scanner) {
+	return func(s *Scanner) {
+		s.args = append(s.args, params...)
+	}
+}
+
 // SetParamPorts sets the ports which the scanner should scan on each host.
 // eg: -p 80,8000-8100
 func SetParamPorts(ports ...string) func(*Scanner) {
